@@ -1,4 +1,4 @@
-?php
+<?php
 // Kelas Book
 class Book
 {
@@ -96,8 +96,8 @@ class Library
 }
 
 // Membuat objek buku
-$book1 = new Book("I Think I Love You", "Cha Mirae", 2022);
-$book2 = new Book("Oh My Savior", "Washashira", 2022);
+$book1 = new Book("pertemuan jingga", "arumi e", 2006);
+$book2 = new Book("fisika dasar", "holiday", 2018);
 
 // Menambahkan buku ke perpustakaan
 Library::addBook($book1);
